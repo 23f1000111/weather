@@ -27,7 +27,7 @@ const cityApp = new Vue({
 
             const encodedCity = encodeURIComponent(this.cityName);
             
-            fetch(`https://api.weatherapi.com/v1/forecast.json?q=${encodedCity}&days=7&key=${window.API_CONFIG.WEATHER_API_KEY}`)
+            fetch(`https://api.weatherapi.com/v1/forecast.json?q=${encodedCity}&days=7&key=5bb221e3e8c348f9a3384202250608`)
                 .then(response => {
                     if (!response.ok) {
                         if (response.status === 400) {

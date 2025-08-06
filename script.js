@@ -41,7 +41,7 @@ const app = new Vue({
       try {
         const encodedQuery = encodeURIComponent(this.searchQuery.trim());
         const response = await fetch(
-          `https://api.weatherapi.com/v1/search.json?q=${encodedQuery}&key=${window.API_CONFIG.WEATHER_API_KEY}`
+          `https://api.weatherapi.com/v1/search.json?q=${encodedQuery}&key=5bb221e3e8c348f9a3384202250608`
         );
 
         if (response.ok) {
@@ -148,7 +148,7 @@ const app = new Vue({
     // ...existing code...
     weather_Lucknow() {
       return fetch(
-        "        `https://api.weatherapi.com/v1/current.json?q=Lucknow&key=${window.API_CONFIG.WEATHER_API_KEY}`"
+        "https://api.weatherapi.com/v1/current.json?q=Lucknow&key=5bb221e3e8c348f9a3384202250608"
       )
         .then((response) => {
           if (!response.ok) {
@@ -168,7 +168,7 @@ const app = new Vue({
 
     weather_NewDelhi() {
       return fetch(
-        "        `https://api.weatherapi.com/v1/current.json?q=New%20Delhi&key=${window.API_CONFIG.WEATHER_API_KEY}`"
+        "https://api.weatherapi.com/v1/current.json?q=New%20Delhi&key=5bb221e3e8c348f9a3384202250608"
       )
         .then((response) => {
           if (!response.ok) {
@@ -188,7 +188,7 @@ const app = new Vue({
 
     weather_Kanpur() {
       return fetch(
-        "        `https://api.weatherapi.com/v1/current.json?q=Kanpur&key=${window.API_CONFIG.WEATHER_API_KEY}`"
+        "https://api.weatherapi.com/v1/current.json?q=Kanpur&key=5bb221e3e8c348f9a3384202250608"
       )
         .then((response) => {
           if (!response.ok) {
