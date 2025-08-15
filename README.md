@@ -20,7 +20,7 @@ A web application to check weather information for different cities using the We
 
 ## Live Demo
 
-Visit the live website: [JalVaayu Weather App](https://23f1000111.github.io/weather/)
+Visit the live website: [JalVaayu Weather App](https://23f1000111.github.io/weather)
 
 ## Project Info
 
